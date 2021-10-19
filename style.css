@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+.body {
+    background-color: hsl(204, 43%, 93%);
+}
+
+.grid {
+    display: grid;
+    width: 40%;
+    margin: auto;
+    margin-top: 12rem;
+}
+
+.join-class {
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+}
+
+.monthly-class {
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0px 0 0 5px;
+    color: white;
+}
+
+.whyus-class {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(179, 58%, 48%);
+    color: hsl(204, 43%, 93%);
+    border-radius: 0 0px 5px 0;
+    text-align: start;
+    justify-content: start;
+}
+
+.whyus-class p {
+    font-size: 16px;
+    text-align: start;
+    width: 85%;
+}
+
+.whyus-class h6 {
+    margin: 0 0 1.5rem 0;
+}
